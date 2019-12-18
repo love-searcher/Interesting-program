@@ -22,7 +22,7 @@ def send_emails( receivers, mail_title, mail_content ):
     #sender_qq为发件人的qq号码
     sender_qq = '2514574092'
     #pwd为qq邮箱的授权码
-    pwd = 'tgxfyztqymdkdjbi' ## h**********bdc
+    pwd = '填写自己的相关授权码' ## h**********bdc
     #发件人的邮箱
     sender_qq_mail = '2514574092@qq.com'
     
