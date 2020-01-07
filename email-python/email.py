@@ -22,7 +22,7 @@ def send_emails( receivers, mail_title, mail_content ):
     #sender_qq为发件人的qq号码
     sender_qq = '2514574092'
     #pwd为qq邮箱的授权码
-    pwd = 'tgxfyztqymdkdjbi' ## h**********bdc
+    pwd = '填写自己的相关授权码' ## h**********bdc
     #发件人的邮箱
     sender_qq_mail = '2514574092@qq.com'
     
@@ -90,11 +90,11 @@ if __name__ == '__main__' :
     receivers = ['lizhy_sysu@126.com']
     #邮件的正文内容
     mail_content = """
-你好，我叫李智源，是你的兼辅。
-    麻烦你能在收到邮件后抽出时间，在微信通知群中的相关表格填写自己的毕业去向，谢谢合作。
+你好，我叫xxx，是xxx。
+    麻烦你能在收到邮件后抽出时间，在xxx，谢谢合作。
     """
     #邮件标题
-    mail_title = 'SYSU-关于申请毕业论文答辩的博士去向统计'
+    mail_title = 'SYSU-关于xxx去向统计'
     #receivers = read_receivers( 'people2email.txt')
     #receivers.append('lizhy_sysu@126.com')
     print( receivers )
